@@ -224,6 +224,7 @@ ARG DIR
 LABEL maintainer="Liz (liz.ln@proton.me)"
 
 RUN apk add --no-cache \
+    capnproto \
     libevent \
     libsodium \
     libstdc++ \
